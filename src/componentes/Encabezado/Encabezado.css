@@ -1,0 +1,17 @@
+
+.navbar-default {
+  background-color: #fe7215;
+  border-color: #fe7215;
+}
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+.logo{
+  width: 45%;
+  height: auto;
+  margin: 10px;
+}

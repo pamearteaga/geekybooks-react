@@ -1,13 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App.js';
+import Encabezado from './componentes/Encabezado/Encabezado.js';
+//import Libros from './componentes/Libros/Libros.js'
 import registerServiceWorker from './registerServiceWorker';
 
+ const cuerpo = document.getElementById('root');
 
-ReactDOM.render(<App />, document.getElementById('root'));
+render(<Encabezado/>, cuerpo);
+//render(<Libros/>, cuerpo);
+
 registerServiceWorker();
 
-const contenido = document.getElementById('contenido');
-
-ReactDOM.render(<h1>Hola mundo</h1>,contenido);
